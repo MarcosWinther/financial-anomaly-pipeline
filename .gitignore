@@ -1,0 +1,37 @@
+# ==============================================================================
+# 🚀 GITIGNORE PARA PROJETOS DE MACHINE LEARNING & JUPYTER NOTEBOOKS
+# ==============================================================================
+
+# --- Jupyter Notebook / Python ---
+.ipynb_checkpoints/     # Pastas temporárias onde o Jupyter salva backups automáticos
+*/.ipynb_checkpoints/
+.pytest_cache/          # Cache de testes se houver
+__pycache__/            # Arquivos Python compilados bytecode (.pyc)
+*.pyc
+
+# --- Ambientes Virtuais (Venv / Conda) ---
+# Nunca suba a pasta do seu ambiente virtual para o GitHub (use sempre o requirements.txt)
+venv/
+.venv/
+env/
+.env/
+miniconda*/
+anaconda*/
+
+# --- Dados e Arquivos Grandes ---
+# O GitHub não aceita arquivos >100MB. Como estamos consumindo o dataset via URL,
+# evite que arquivos baixados localmente por engano sejam monitorados.
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.pickle
+*.h5
+
+# --- Sistema Operacional (Arquivos inúteis do sistema) ---
+.DS_Store               # Arquivo oculto do macOS
+Thumbs.db               # Arquivo oculto do Windows
+
+# --- IDEs (Configurações locais de editores de código) ---
+.vscode/
+.idea/
