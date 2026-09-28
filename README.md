@@ -28,6 +28,8 @@ financial-anomaly-pipeline/
 - **Classificação:** XGBoost
 - **Visualização:** Matplotlib e Seaborn
 
+<br>
+
 ## 📈 Etapas do Pipeline
 
 1. **Carga e auditoria:** leitura do CSV hospedado publicamente e inspeção inicial dos dados.
@@ -37,9 +39,13 @@ financial-anomaly-pipeline/
 5. **Modelagem:** comparação entre Isolation Forest e XGBoost. O limiar de decisão do XGBoost está definido em `0.35` para favorecer o Recall.
 6. **Avaliação:** geração de matrizes de confusão, comparação de F2-Score, curva Precision-Recall e relatórios de classificação.
 
+<br>
+
 ## 🏆 Avaliação
 
 O notebook calcula as métricas para as abordagens Isolation Forest e XGBoost. O limiar `0.35` é uma escolha fixa no código; o relatório final e o dashboard permitem avaliar seu efeito sobre Recall e precisão.
+
+<br>
 
 ## 🚀 Como Executar
 
@@ -68,9 +74,23 @@ O notebook calcula as métricas para as abordagens Isolation Forest e XGBoost. O
 
 4. Para executar no Google Colab, faça upload de `notebooks/fraud_detection_anomaly_pipeline.ipynb`. O notebook carrega o dataset pela URL definida no código.
 
-## 👨‍💻 Autor
+<br>
 
-Marcos Winther
 
-- [GitHub](https://github.com/MarcosWinther)
-- [LinkedIn](https://www.linkedin.com/in/marcoswinthersilva/)
+## 👨‍💻 Expert
+
+<p>
+      <img
+         align=left
+         margin=10
+         width=80
+      src="https://avatars.githubusercontent.com/u/44624583?v=4"
+    />
+    <p>&nbsp&nbsp&nbspMarcos Winther<br>
+    &nbsp&nbsp&nbsp
+    <a href="https://github.com/MarcosWinther">
+    GitHub</a>&nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/marcoswinthersilva/">LinkedIn</a>
+    </p>
+</p>
+<br/><br/>
